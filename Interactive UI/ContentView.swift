@@ -24,6 +24,10 @@ struct ContentView: View {
             Button("Submit") {
                 titleText = "Mangos are amazing"
                 presentAlert = true
+                Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                }
+
             }
             .font(.title2)
             .buttonStyle(.borderedProminent)
